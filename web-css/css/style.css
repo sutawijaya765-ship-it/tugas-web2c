@@ -1,6 +1,12 @@
-body{
+.h1{
+    color:black;
+    font-size: 32px;
+    font:Arial,sans-serif;
+}
+
+.body{
     color:blue;
-    font-size: 50px;
+    font-size: 16px;
     font:Arial,sans-serif;
 }
 
