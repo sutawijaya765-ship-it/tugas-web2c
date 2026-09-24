@@ -1,0 +1,17 @@
+body{
+    color:blue;
+    font-size: 50px;
+    font:Arial,sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 800px;
+    margin:auto;
+}
+
+.header .judul{
+    font-size:40px ;
+    font-weight:50px ;
+    margin-bottom:70px ;
+}

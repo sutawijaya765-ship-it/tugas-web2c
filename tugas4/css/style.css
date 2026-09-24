@@ -1,0 +1,15 @@
+/* membuat halaman h1 berwarna biru */
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+h2{
+    color:blueviolet;
+    font-family: 30px;
+}
+
+p{
+    color:brown;
+    font-family: 20px;
+}
