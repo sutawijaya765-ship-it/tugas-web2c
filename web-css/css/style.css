@@ -47,3 +47,16 @@
     color: white;
 }
 
+.banner {
+    height: 300px;
+    /*background-color: skyblue;*/
+    /*berikan file gambar*/
+    background-image: url("gambar.jpg");
+    /*atur ukuran gambar*/
+    background-size: cover;
+    /*mengatur posisi gambar horisontal dan vertikal*/
+    background-position: 0px -150px;
+    /*mengatur garis tepi tebal jenis warna*/
+    border-top: 5px solid navy;
+    border-bottom: 5px solid skyblue;
+}
