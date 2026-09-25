@@ -53,6 +53,37 @@ body {
     gap: 8px;
 }
 
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+
+.search-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-box input {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.search-box span {
+    font-size: 20px;
+}
+
 .nav li a {
     display: block;
     text-decoration: none;
