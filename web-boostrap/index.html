@@ -1,56 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web profil boostrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Web Profil Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
 
-        <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+            <a class="navbar-brand" href="#">
+                Welcome To My Website
             </a>
 
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-        </li>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
 
-        <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    </ul>
-</div>
-      <div class="container">
-    <div class="row">
-        <div class="col">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Menu navigasi website -->
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Bagian Profil -->
+    <div class="container mt-5">
+
+        <div class="row align-items-center">
+
+           <!-- Bagian foto profil -->
+              <div class="text-center">
+
+                  <img src="img/anak ganteng.jpeg"
+                      class="img-fluid w-25 border border-3 success rounded-circle"
+                      alt="Foto Profil">
+
+              </div>
+
+            <!-- Bagian artikel profil -->
+            <div class="container mt-4">
+
+                <!-- Membatasi lebar tulisan agar lebih rapi -->
+                <div class="mx-auto" style="max-width: 800px;">
+
+                    <!-- Judul artikel -->
+                    <h2 class="text-center mb-2">
+                        Mengenal Saya Lebih Dekat
+                    </h2>
+
+                    <!-- Nama dan tanggal -->
+                    <p class="text-center text-muted mb-4">
+                        Suta Wijaya | 2 Oktober 2026
+                    </p>
+
+                    <!-- Isi artikel -->
+                    <p>
+                        Halo, saya Suta Wijaya. Saya adalah seorang mahasiswa yang
+                        sedang belajar membuat website menggunakan HTML, CSS, dan
+                        Bootstrap.
+                    </p>
+
+                    <p>
+                        Website ini dibuat sebagai bagian dari proses pembelajaran
+                        saya dalam memahami pengembangan website.
+                    </p>
+
+                    <p>
+                        Saya terus belajar dan mencoba berbagai hal baru dalam dunia
+                        teknologi, khususnya dalam pembuatan website dan pemrograman.
+                    </p>
+
+                </div>
+            </div>
         </div>
 
-        <div class="col">
-            <img src="anakganteng.jpg" class="img-fluid"/>
-        </div>
     </div>
+        <!-- Footer website -->
+        <footer class="bg-dark text-white text-center py-3 mt-5">
 
-    <h1>haloo saya John Doe</h1>
+            <!-- Tulisan footer -->
+            <p class="mb-0">
+                Created with ❤️ by Suta Wijaya
+            </p>
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>
+```
